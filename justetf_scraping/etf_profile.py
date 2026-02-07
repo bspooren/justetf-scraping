@@ -295,7 +295,7 @@ def get_etf_overview(
         if countries_xml:
             countries = _parse_allocation_from_ajax(
                 countries_xml,
-                "id47",
+                "id46",
                 "tl_etf-holdings_countries_value_name",
                 "tl_etf-holdings_countries_value_percentage",
             )
@@ -323,7 +323,7 @@ def get_etf_overview(
         if sectors_xml:
             sectors = _parse_allocation_from_ajax(
                 sectors_xml,
-                "id48",
+                "id47",
                 "tl_etf-holdings_sectors_value_name",
                 "tl_etf-holdings_sectors_value_percentage",
             )
